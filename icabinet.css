@@ -1,0 +1,112 @@
+body {
+    color: blue;
+    background-color: bisque;
+}
+
+nav {
+    background-image: linear-gradient(to top, bisque, brown);
+    line-height: 100px;
+    float: left;
+    width: 20%;
+    padding-bottom: 30%;
+    list-style: none;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    transition: color 2s ease-in;
+}
+
+nav a:hover {
+    color: bisque;
+}
+
+
+
+header {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size:x-large;
+    text-indent: 8em;
+    text-align: center;
+    background-image: url(pictures/logo.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 5em
+    
+}
+
+main {
+    padding-right: 15em;
+    margin-left: auto;
+    padding-top: 2em;
+    list-style: none;
+}
+
+footer {
+    padding-right: 15em;
+    margin-left: auto;
+}
+
+header a {
+    text-decoration: none;
+    color: blue;
+}
+
+* {
+    box-sizing: border-box;
+    text-align: center
+}
+
+.page {
+    float: left;
+}
+
+tr:nth-of-type(even) {
+	background-color: teal;
+    color: bisque;
+}
+
+tr:nth-of-type(odd) {
+    color: black;
+}
+
+td, th {
+	border: .5em solid teal;
+	padding: 1em;
+}
+
+td {
+	text-align: center;
+}
+
+table {
+    margin-left: 2em;
+    padding-left: 6em;
+    width: 50%;
+    height: 25%;
+}
+
+label{
+    justify-content: center;
+    margin-right: 2px
+}
+
+input, textarea {
+	justify-content: center;
+	margin-bottom: 20px;
+    padding-left: 1px;
+}
+
+input[type="submit"] {
+	margin-left: 10%;
+}
+
+form {
+    justify-content: center;
+    padding-left: 2px;
+    margin-left: 20%;
+}
